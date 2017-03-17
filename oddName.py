@@ -1,8 +1,4 @@
 
-def main():
-  get_name()
-
-
 def get_name():
     name = input("What is your Name?")
     name = "".join(name.split())
@@ -12,6 +8,8 @@ def get_name():
     else:
         print("Not a valid name")
 
+def main():
+  get_name()
 
 main()
 
